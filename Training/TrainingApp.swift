@@ -12,6 +12,7 @@ struct TrainingApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(PlacesViewModel())
         }
     }
 }
